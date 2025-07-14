@@ -1,7 +1,10 @@
 selenium==4.8.3 
 undetected-chromedriver==3.4.6 
-webdriver-manager==  3.8.6 
-Pillow==10.3.0
+webdriver-manager==3.8.6 
+Pillow>=11.0.0
 deepface
 opencv-python
 numpy
+# For macOS users with Apple Silicon, also install:
+# tensorflow-macos
+# tensorflow-metal
